@@ -1,0 +1,31 @@
+/* Navbar container */
+.Navbar {
+  background-color: #1e293b;
+  padding: 15px 30px;
+  display: flex;
+  gap: 25px;
+  align-items: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Default link style */
+.nav-link {
+  text-decoration: none;
+  color: #e2e8f0;
+  font-size: 18px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+/* Hover effect */
+.nav-link:hover {
+  color: #38bdf8;
+  transform: scale(1.05);
+}
+
+/* Active link */
+.active {
+  color: #facc15;
+  border-bottom: 2px solid #facc15;
+  padding-bottom: 3px;
+}
